@@ -1,5 +1,7 @@
-# Cats
+# Cats Problem
 
-> Multithreading problem
+> C++ implementations of multithreading problem with ncurses user interface.
 
-work in progress
+## Contact
+
+Created by [@michaltkacz](https://github.com/michaltkacz) - feel free to contact me!

@@ -20,16 +20,16 @@ int main(int argc, char *argv[])
 	int eatTime = 2000;
 
 	// user parameters
-	// std::cout << "Number of cats: ";
-	// std::cin >> catsNum;
-	// std::cout << "Number of bowls: ";
-	// std::cin >> bowlsNum;
-	// std::cout << "Number of beds: ";
-	// std::cin >> bedsNum;
-	// std::cout << "Sleep time (ms; +/-25%): ";
-	// std::cin >> sleepTime;
-	// std::cout << "Eat time (ms; +/-25%): ";
-	// std::cin >> eatTime;
+	std::cout << "Number of cats: ";
+	std::cin >> catsNum;
+	std::cout << "Number of bowls: ";
+	std::cin >> bowlsNum;
+	std::cout << "Number of beds: ";
+	std::cin >> bedsNum;
+	std::cout << "Sleep time (ms; +/-25%): ";
+	std::cin >> sleepTime;
+	std::cout << "Eat time (ms; +/-25%): ";
+	std::cin >> eatTime;
 
 	// start of the program
 	initscr();
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 		move(WALL_ROW, 1);
 		hline(' ', objectsRowWidth);
 		move(MAP_HEIGHT - 1, 1);
-		hline(' ', WINDOW_WIDTH);
+		hline(' ', WINDOW_WIDTH - 2);
 		//text
 		mvprintw(0, 2, " CATS ");
 		mvprintw(WINDOW_HEIGHT - 1, 2, " Exit - Q ");
